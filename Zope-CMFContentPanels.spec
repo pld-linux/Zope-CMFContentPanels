@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.python
 %define		zope_subname	CMFContentPanels
 #%%define		sub_ver RC1
 Summary:	A CMF/Plone portlets product
