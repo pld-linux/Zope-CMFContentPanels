@@ -4,12 +4,12 @@
 Summary:	A CMF/Plone portlets product
 Summary(pl):	Produkt dla CMF/Plone pozwalaj±cy na manipulacje panelami portalu
 Name:		Zope-%{zope_subname}
-Version:	1.7
+Version:	1.7.1
 Release:	1
 License:	GPL
 Group:		Development/Tools
-Source0:	http://zope.org/Members/panjunyong/%{zope_subname}/contentpanels-1_7/contentpanels-1_7.tgz
-# Source0-md5:	1d31b187685d43461bd77152fc3d2383
+Source0:	http://zope.org/Members/panjunyong/%{zope_subname}/contentpanels-1_7/contentpanels-1_7_1.tgz
+# Source0-md5:	bb0babbed01ae0f838c8e64185549416
 URL:		http://zope.org/Members/panjunyong/CMFContentPanels/
 Requires(post,postun):	/usr/sbin/installzopeproduct
 %pyrequires_eq	python-modules
