@@ -1,14 +1,15 @@
 %include	/usr/lib/rpm/macros.python
 %define		zope_subname	CMFContentPanels
+%define		sub_ver RC1
 Summary:	A CMF/Plone portlets product
 Summary(pl):	Produkt dla CMF/Plone pozwalaj±cy na manipulacje panelami portalu
 Name:		Zope-%{zope_subname}
-Version:	1.5
-Release:	1
+Version:	1.6
+Release:	0.%{sub_ver}.1
 License:	GPL
 Group:		Development/Tools
-Source0:	http://zope.org/Members/panjunyong/%{zope_subname}/%{zope_subname}%20%{version}/contentpanels-1_5.tgz
-# Source0-md5:	e9bcffe7ec4204d880529d330a707f45
+Source0:	http://zope.org/Members/panjunyong/%{zope_subname}/%{zope_subname}%20%{version}/contentpanels-1_6%{sub_ver}.tgz
+# Source0-md5:	731df8488d844db215eefa16a12a9d2f
 URL:		http://zope.org/Members/panjunyong/CMFContentPanels/
 Requires(post,postun):	/usr/sbin/installzopeproduct
 %pyrequires_eq	python-modules
@@ -62,5 +63,5 @@ fi
 
 %files
 %defattr(644,root,root,755)
-%doc HISTORY.txt README.txt INSTALL.txt TODO.txt
+%doc HISTORY.txt README.txt INSTALL.txt TODO.txt CREDIT.txt FAQ.txt
 %{_datadir}/%{name}
