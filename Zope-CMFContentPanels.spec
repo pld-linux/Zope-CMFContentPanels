@@ -11,7 +11,7 @@ Source0:	http://zope.org/Members/panjunyong/%{zope_subname}/contentpanels-1_7/co
 # Source0-md5:	bb0babbed01ae0f838c8e64185549416
 URL:		http://zope.org/Members/panjunyong/CMFContentPanels/
 Requires(post,postun):	/usr/sbin/installzopeproduct
-BuildRequires:  python
+BuildRequires:	python
 %pyrequires_eq	python-modules
 Requires:	Zope
 Requires:	Zope-CMF
