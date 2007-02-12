@@ -1,7 +1,7 @@
 %define		zope_subname	CMFContentPanels
 #%%define		sub_ver RC1
 Summary:	A CMF/Plone portlets product
-Summary(pl):	Produkt dla CMF/Plone pozwalaj±cy na manipulacje panelami portalu
+Summary(pl.UTF-8):   Produkt dla CMF/Plone pozwalajÄ…cy na manipulacje panelami portalu
 Name:		Zope-%{zope_subname}
 Version:	2.0
 Release:	1
@@ -25,8 +25,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A CMF/Plone portlets product.
 
-%description -l pl
-Produkt dla CMF/Plone pozwalaj±cy na manipulacje panelami portalu.
+%description -l pl.UTF-8
+Produkt dla CMF/Plone pozwalajÄ…cy na manipulacje panelami portalu.
 
 %prep
 %setup -q -n %{zope_subname}
